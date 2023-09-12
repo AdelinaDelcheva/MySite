@@ -1,0 +1,74 @@
+@import url("reset.css");
+@import url("components.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url(RobotoCondensed-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: RobotoRegular;
+    src: url(RobotoCondensed-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: RobotoRegularClear;
+    src: url(Roboto-Light.ttf);
+  }
+html{
+    font-size: 15px;
+}
+  body{
+    font-family: RobotoRegularClear, Sans-serif;
+   position:relative;
+   background-color: var(--color-white);
+   color: var(--color-black);
+   box-sizing: border-box;
+    /* padding: 0.5rem 2rem; */
+  }
+
+  p{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto;  
+    color: #000000;
+  }
+  h5{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0.5rem;
+  }
+  h3{
+    font-family:RobotoItalic;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: oblique;
+    line-height: 26px;
+    padding-bottom: 2rem;
+}
+h2{
+  font-family:RobotoRegular;
+  font-size: 32px;
+  font-weight: 200;
+  
+  line-height: 26px;
+  padding-bottom: 2rem;
+}
+  
+ i{
+  padding-right: 0.8rem;
+ } 
+ 
+  @keyframes fadeInUp{
+      0%{
+          opacity: 0;
+          transform: translateY(10%);
+      }
+      100%{
+          opacity: 1;
+          transform: translateY(0%);
+      }
+  }
